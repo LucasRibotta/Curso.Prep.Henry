@@ -105,7 +105,12 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-   return numero % 1 == 0;
+   if(numero === Math.floor(numero)){
+    return true;
+   }
+   else{
+    return false;
+   }
 }
 
 function fizzBuzz(numero) {
@@ -160,16 +165,16 @@ function esPrimo(numero) {
    if(numero < 2){
     return false;
    }
-   else if(numero == 2){
+   else if(numero === 2){
     return true;
    }
    for(var i = 2; i < numero; i++){
-   if(numero % i == 0){
+   if(numero % i === 0){
     return false;
    }
    }
     return true;
-   
+  
 }
 
 function esVerdadero(valor){
