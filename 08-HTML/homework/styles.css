@@ -1,17 +1,49 @@
-h1{
-    color:aqua;
+
+ h1{
+    color:wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+ h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #spanId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
 img {
     width: 400px;
 }
 #thirdDiv{
     height: 500px;
     width: 600px;
-    background-color: salmon;
+    margin: auto;
+    background-color: gray;
     padding: 50px;
     border: 10px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
 }
+body {
+    heigh:100%;
+    background-image: url(https://img.freepik.com/foto-gratis/mar-tropical-hermoso-mar-playa-cielo-azul-nube-blanca-copyspace_74190-8663.jpg?w=2000);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: initial;
+    
+  }
